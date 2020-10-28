@@ -22,7 +22,7 @@ font-family: 'Crimson Pro', serif;
 .latest{
    /* font-weight: 100;*/
         color:#101011;
-        font-size: 0.75rem;
+        font-size: 1.5rem;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         text-align: justify;
@@ -31,21 +31,15 @@ h1{
 font-family: 'Lora', sans-serif;
 font-weight: 400;
 color: #143774;
-font-size: 2rem;
+font-size: 0.75rem;
 margin: 0;
 }
-h1{
-    font-family: 'Lora',sans-serif;
-    font-weight: 400;
-    color: #143774;
-    font-size: 2rem;
-    margin: 0;
-    }
+
 h2{
     
     font-weight: 400;
     color: #2b2c2e;
-    font-size: 2rem;
+    font-size: 0.75rem;
     margin: 0;
     }
     h2{
@@ -59,7 +53,7 @@ h2{
         
         font-weight: 400;
         color:#5c81ca;
-        font-size: 0.75rem;
+        font-size: 2rem;
         margin: 0;
         text-align: justify; 
         }
