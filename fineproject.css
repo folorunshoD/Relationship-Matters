@@ -1,0 +1,149 @@
+:root {
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+  }
+  img{
+margin-bottom: 2px;
+  }
+body{
+margin: 0;
+font-family: 'loral', sans-serif;
+}
+/*             typography         */
+.number{
+    text-align: center;
+    font-weight: 400;
+}
+.latest{
+   /* font-weight: 100;*/
+        color:#101011;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-align: justify;
+}
+h1{
+font-family: 'Lora', sans-serif;
+font-weight: 400;
+color: #143774;
+font-size: 2rem;
+margin: 0;
+}
+h1{
+    font-family: 'Lora',sans-serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+    }
+h2{
+    
+    font-weight: 400;
+    color: #2b2c2e;
+    font-size: 2rem;
+    margin: 0;
+    }
+    h2{
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    color: #2b2c2e;
+    font-size: 2rem;
+    margin: 0;
+    }
+    p{
+        
+        font-weight: 400;
+        color:#5c81ca;
+        font-size: 2rem;
+        margin: 0;
+        text-align: justify; 
+        }
+
+.subtitle{
+    font-weight: 700;
+    color: #1792d2;
+    font-size: 2rem;
+}
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.container-nav{
+    display: flex;
+}
+
+header{
+    background:#f8f8f8;
+    padding: 2em 0;
+    /* we where able center this cos header deals directly with the parent which is our H1 nnd paragraph*/
+/* whereas the navigation can not it is already defined in flex*/
+}
+@media(max-width:675px){
+    .container-nav{
+        flex-direction:column;
+    }
+   header {
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        margin: .5em 0 ;
+        /* To create space for the navigations*/
+    }
+  }
+
+
+/*navigation */
+nav ul{
+    /*border: 1px solid magenta;*/
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+/*border: 2px dotted orange;*/
+margin-left: 2em;
+/*to push  them away from one another we would hav*/
+/* ul by usig margin but they may be issues we would  have used them in nav*/
+
+}
+nav a{
+/*border: 3px solid green; to remove underline use text decoration none*/
+text-decoration: none;
+color: #707070;
+font-weight: 700;
+padding: .25em 0;
+}
+nav a:hover,
+nav a:focus{
+    color: #1792d2;
+} 
+.firstpage{
+    /*color: red;*/
+border-bottom: 1px solid#707070 ;
+}
+.firstpage:hover{
+    color:#707070;
+
+}
+.banner-btn {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    cursor: pointer;
+  }
